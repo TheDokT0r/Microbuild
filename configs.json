@@ -1,0 +1,15 @@
+{
+  "path": "/",
+  "language": "node",
+  "exceptions": [
+    "exception1"
+  ],
+  "specials": [
+    {
+    "microservice1": {
+      "build": "npm i --force",
+      "test": "npm run test"
+    }
+    }
+  ]
+}

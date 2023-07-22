@@ -1,6 +1,6 @@
-def get_configs():
+def get_settings():
     config = {}
-    with open('configs.txt', 'r') as f:
+    with open('settings.txt', 'r') as f:
 
         for line in f.readlines():
             key, value = line.split('=')
@@ -9,5 +9,6 @@ def get_configs():
 
     return config
 
-def set_configs(configs):
+
+def set_settings(configs):
     pass
